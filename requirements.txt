@@ -11,7 +11,7 @@ python-dotenv==1.0.1
 openai==1.30.0
 requests==2.31.0
 
-pdfminer.six==20231228
+pdfminer.six==2023.6.7
 Pillow>=10.3.0
 pytesseract==0.3.10
 fastapi==0.112.0
@@ -22,4 +22,5 @@ pytesseract==0.3.10
 openai==1.55.3
 python-dotenv==1.1.1
 requests==2.32.0
+
 

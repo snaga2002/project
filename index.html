@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma‑to‑Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="badge">⚡ AI‑Powered Test Generation</div>
+
+        <h1>
+            Figma Designs To 
+            <span class="highlight">Test Cases</span> 
+            In Seconds
+        </h1>
+
+        <p class="subtext">
+            AI-powered test generation that understands your designs.  
+            Create comprehensive user stories, test scenarios, and edge cases automatically.
+        </p>
+
+        <div class="buttons">
+            <a href="app.py" class="btn-primary">Try It Now →</a>
+            <button class="btn-outline">▶ Learn More</button>
+        </div>
+    </section>
+<!-- FOOTER -->
+    <footer class="footer">
+        Developed by Team No_Thing
+    </footer>
+
+    <script>
+        document.querySelector(".btn-primary").addEventListener("click", function (event) {
+            event.preventDefault();
+            window.location.href = "http://127.0.0.1:8000/";  
+        });
+    </script>
+
+</body>
+</html>

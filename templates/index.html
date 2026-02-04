@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Force - Scenario Generator</title>
+</head>
+<body>
+    <h1>AI Force: Scenario Generator</h1>
+
+    <form action="/process" method="POST" enctype="multipart/form-data">
+
+        <!-- URL Input -->
+        <label>Enter URL (Figma or any):</label>
+        <input type="text" name="url"><br><br>
+
+        <!-- Text Input -->
+        <label>Enter Text:</label><br>
+        <textarea name="text" rows="5" cols="50"></textarea><br><br>
+
+        <!-- File Upload -->
+        <label>Upload File:</label>
+        <input type="file" name="file"><br><br>
+
+        <!-- Voice Recording -->
+        <label>Record Voice:</label><br>
+        <button type="button" onclick="startRecording()">Start</button>
+        <button type="button" onclick="stopRecording()">Stop</button>
+        <audio id="audioPlayback" controls></audio>
+        <input type="hidden" name="audio_data" id="audioData">
+
+        <script src="/static/recorder.js"></script>
+
+        <br><br>
+        <button type="submit">Generate Scenarios</button>
+    </form>
+
+</body>
+</html>

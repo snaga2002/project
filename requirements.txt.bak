@@ -1,0 +1,16 @@
+fastapi==0.110.0
+uvicorn==0.27.1
+python-multipart==0.0.9
+
+# Pydantic compatible with FastAPI
+pydantic==1.10.13
+
+# ENV loading without conflicts
+python-dotenv==1.0.1
+
+openai==1.30.0
+requests==2.31.0
+
+pdfminer.six==20231228
+Pillow>=10.3.0
+pytesseract==0.3.10
